@@ -16,6 +16,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.turboclone.app.data.model.Driver
 import com.turboclone.app.ui.theme.RedPrimary
+import androidx.compose.foundation.background
+
 
 @Composable
 fun RatingScreen(driver: Driver, onDone: () -> Unit) {
